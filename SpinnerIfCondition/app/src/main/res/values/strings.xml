@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SpinnerIfCondition</string>
+
+    <string name="first30UC">
+
+        <i>
+        You can redeem only once in day.\n
+        You can redeem 30UC free of cost. \n
+        Your redeem UC will be effected in your Account \n
+        within 24hrs of Working Day.
+        T*C Apply.
+    </i>
+    </string>
+
+
+    <string name="second300UC">
+    <i>
+        You can redeem only once in day.\n
+        You have choosen 300UC for redemption charge \n
+        of 50rs. will be applied.\n
+        Your redeem UC will be effected in your Account \n
+        within 24hrs of Working Day.
+        T*C Apply.
+     </i>
+    </string>
+
+
+    <string name="third600UC">
+    <i>
+        You can redeem only once in day.\n
+        You have choosen 600UC for redemption charge \n
+        of 100rs will be applied.
+        Your redeem UC will be effected in your Account \n
+        within 24hrs of Working Day.
+        T*C Appl.
+    </i>
+    </string>
+
+</resources>

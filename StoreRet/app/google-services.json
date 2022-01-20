@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "19603013518",
+    "firebase_url": "https://storeret-84a60.firebaseio.com",
+    "project_id": "storeret-84a60",
+    "storage_bucket": "storeret-84a60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19603013518:android:763539afbf9b5ad5c1aedf",
+        "android_client_info": {
+          "package_name": "trial.of.storeret"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19603013518-eo0ouginmom0gk7abfkq4ib0q2p0f5q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAPZ13YfFgDcinJhcN1-NJOLp5zi-lC14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19603013518-eo0ouginmom0gk7abfkq4ib0q2p0f5q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ededed"
+    android:padding="17dp"
+    tools:context=".PaymentActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/userNameTv"
+        android:text="Enter your Username"
+        android:textColor="#ff6072"
+        android:textSize="14dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Username"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/edittext"
+        android:padding="16dp"
+        android:backgroundTint="#fff"
+        android:textColor="#a49d9d"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/GameIDTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Game ID"
+        android:layout_marginTop="11dp"
+        android:textColor="#ff6072"
+        android:textSize="14dp"
+        />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game ID"
+        android:background="@drawable/edittext"
+        android:padding="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="#fff"
+        android:inputType="number"
+        android:textColor="#a49d9d"
+        />
+
+    <TextView
+        android:id="@+id/contactNumberTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact No."
+        android:inputType="number"
+        android:maxLength="10"
+        android:layout_marginTop="11dp"
+        android:textSize="14dp"
+        android:textColor="#ff6072"
+        />
+
+    <EditText
+        android:id="@+id/contactNumberEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:padding="16dp"
+        android:hint="Contact Number"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="11dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:backgroundTint="#fff"
+        android:textColor="#a49d9d"
+        />
+
+    <Button
+        android:layout_width="126dp"
+        android:layout_height="39dp"
+        android:background="@drawable/buttonshapelogin"
+        android:textColor="#fff"
+        android:id="@+id/send"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:text="Pay Now"/>
+
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Terms"
+        android:textColor="#bcbcbc"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="UPI ID"
+        android:text="kamaal11april-1@okhdfcbank"
+        android:id="@+id/upi_id"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount_et"
+        android:text="20"
+        android:visibility="invisible"
+        />
+
+
+
+</LinearLayout>

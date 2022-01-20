@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187522543234",
+    "firebase_url": "https://imageretfb.firebaseio.com",
+    "project_id": "imageretfb",
+    "storage_bucket": "imageretfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187522543234:android:3f1c27d76a60761fbd4e9b",
+        "android_client_info": {
+          "package_name": "trial.of.imageretfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187522543234-hs3majf7ovabkfoq0k7tl7aaktqke93r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnlV8e8gTtD8_kUdGlFmzIkcCwJL58BMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187522543234-hs3majf7ovabkfoq0k7tl7aaktqke93r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="30dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:id="@+id/soloErangle"
+        android:elevation="20dp"
+        android:background="#78E3E3E3"
+
+        tools:ignore="InvalidId">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/lato_bold"
+            android:text="Erangle"
+            android:textColor="#ff6072"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOLO"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="#ff6072"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/maper"
+        android:layout_marginTop="70dp"
+        android:scaleType="fitCenter"
+        />
+    <View
+        android:layout_width="225dp"
+        android:layout_height="1dp"
+        android:background="#a49d9d"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="150dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Date"
+            android:textColor="#a49d9d"
+
+            android:textSize="13dp"
+            app:fontFamily="@font/lato" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="60.5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="#a49d9d"
+            android:textSize="13dp"
+            app:fontFamily="@font/lato"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="31.5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mode"
+            android:textSize="13dp"
+            app:fontFamily="@font/lato"
+            android:layout_marginTop="80dp"
+            android:textColor="#a49d9d"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05/07/2020"
+            android:textColor="#ff6072"
+            android:textSize="13dp"
+            app:fontFamily="@font/lato"
+            android:layout_marginTop="100dp"
+            />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="18dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:00 am"
+            android:textColor="#ff6072"
+            android:textSize="13dp"
+            app:fontFamily="@font/lato"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="6.4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TPP"
+            android:layout_marginTop="100dp"
+            android:textColor="#ff6072"
+            android:textSize="13dp"
+            app:fontFamily="@font/lato"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="225dp"
+        android:layout_height="1dp"
+        android:background="#a49d9d"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="150dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Winning Prize"
+            android:textSize="13dp"
+            android:textColor="#a49d9d"
+            app:fontFamily="@font/lato"
+            android:layout_marginTop="80dp"
+            />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="8dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Players"
+            android:textColor="#a49d9d"
+            android:layout_marginTop="80dp"
+            android:textSize="13dp"
+            app:fontFamily="@font/lato"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entry Fess"
+            android:layout_marginTop="80dp"
+            android:textColor="#a49d9d"
+            android:textSize="13dp"
+            app:fontFamily="@font/lato"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="600UC"
+            android:textColor="#ff6072"
+            android:layout_marginTop="100dp"
+            />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="46.5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="#ff6072"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="36dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:layout_marginTop="100dp"
+            android:textColor="#ff6072"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/joinBtnSolo"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:text="Join now"
+        android:background="#ff6072"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="180dp"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:id="@+id/duoErangle"
+        android:layout_below="@id/soloErangle"
+        android:layout_marginTop="25dp"
+        android:background="#78E3E3E3"
+        android:elevation="20dp"
+        tools:ignore="InvalidId">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_bold"
+                android:text="Erangle"
+                android:textColor="#ff6072"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-condensed-light" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOLO"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="#ff6072"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/maper"
+            android:layout_marginTop="70dp"
+            android:scaleType="fitCenter"
+            />
+        <View
+            android:layout_width="225dp"
+            android:layout_height="1dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="150dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="Date"
+                android:textColor="#a49d9d"
+
+                android:textSize="13dp"
+                app:fontFamily="@font/lato" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="60.5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textColor="#a49d9d"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="31.5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mode"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="80dp"
+                android:textColor="#a49d9d"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05/07/2020"
+                android:textColor="#ff6072"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="100dp"
+                />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="18dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:00 am"
+                android:textColor="#ff6072"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="6.4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TPP"
+                android:layout_marginTop="100dp"
+                android:textColor="#ff6072"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="225dp"
+            android:layout_height="1dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="150dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Winning Prize"
+                android:textSize="13dp"
+                android:textColor="#a49d9d"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="80dp"
+                />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Players"
+                android:textColor="#a49d9d"
+                android:layout_marginTop="80dp"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entry Fess"
+                android:layout_marginTop="80dp"
+                android:textColor="#a49d9d"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="600UC"
+                android:textColor="#ff6072"
+                android:layout_marginTop="100dp"
+                />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="46.5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#ff6072"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="36dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$"
+                android:layout_marginTop="100dp"
+                android:textColor="#ff6072"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/joinBtnDuo"
+            android:layout_width="164dp"
+            android:layout_height="44dp"
+            android:text="Join now"
+            android:background="#ff6072"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="180dp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:id="@+id/squadErangle"
+        android:layout_below="@id/duoErangle"
+        android:layout_marginTop="25dp"
+        android:background="#78E3E3E3"
+        android:elevation="20dp"
+        tools:ignore="InvalidId">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_bold"
+                android:text="Erangle"
+                android:textColor="#ff6072"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-condensed-light" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOLO"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="#ff6072"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/maper"
+            android:layout_marginTop="70dp"
+            android:scaleType="fitCenter"
+            />
+        <View
+            android:layout_width="225dp"
+            android:layout_height="1dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="150dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="Date"
+                android:textColor="#a49d9d"
+
+                android:textSize="13dp"
+                app:fontFamily="@font/lato" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="60.5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textColor="#a49d9d"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="31.5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mode"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="80dp"
+                android:textColor="#a49d9d"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05/07/2020"
+                android:textColor="#ff6072"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="100dp"
+                />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="18dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:00 am"
+                android:textColor="#ff6072"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="6.4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TPP"
+                android:layout_marginTop="100dp"
+                android:textColor="#ff6072"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="225dp"
+            android:layout_height="1dp"
+            android:background="#a49d9d"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="150dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Winning Prize"
+                android:textSize="13dp"
+                android:textColor="#a49d9d"
+                app:fontFamily="@font/lato"
+                android:layout_marginTop="80dp"
+                />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Players"
+                android:textColor="#a49d9d"
+                android:layout_marginTop="80dp"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entry Fess"
+                android:layout_marginTop="80dp"
+                android:textColor="#a49d9d"
+                android:textSize="13dp"
+                app:fontFamily="@font/lato"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="600UC"
+                android:textColor="#ff6072"
+                android:layout_marginTop="100dp"
+                />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="46.5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textColor="#ff6072"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="#a49d9d"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="36dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$"
+                android:layout_marginTop="100dp"
+                android:textColor="#ff6072"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/joinBtnSquad"
+            android:layout_width="164dp"
+            android:layout_height="44dp"
+            android:text="Join now"
+            android:background="#ff6072"
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="180dp"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+<!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Time"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:paddingTop="8dp"
+                android:paddingLeft="19dp"
+                android:background="@drawable/edittexttime"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="SOLO"
+                android:background="@drawable/edittexthead"
+                android:gravity="center_horizontal|center"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rules"
+                android:textColor="#fff"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingRight="19dp"
+                android:background="@drawable/edittextrule"
+                android:backgroundTint="#ff6072"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/tourSoloIv"
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:layout_marginTop="37dp"
+            android:src="@drawable/tournamentsolocrop"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="350dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/tourSoloIv"/>
+
+        <Button
+            android:id="@+id/JoinNowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/buttontournament"
+            android:layout_below="@+id/progressBar1"
+            android:text="Join Now"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="320dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Time"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:paddingTop="8dp"
+                android:paddingLeft="19dp"
+                android:background="@drawable/edittexttime"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="DUO"
+                android:background="@drawable/edittexthead"
+                android:gravity="center_horizontal|center"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rules"
+                android:textColor="#fff"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingRight="19dp"
+                android:background="@drawable/edittextrule"
+                android:backgroundTint="#ff6072"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tourSoloIv2"
+            android:layout_width="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:layout_height="215dp"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/JoinNowBtn"
+            android:src="@drawable/tournamentduocrop"
+            />
+
+        <Button
+            android:id="@+id/JoinNowBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/buttontournament"
+            android:layout_below="@+id/tourSoloIv2"
+            android:text="Join Now"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="630dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Time"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:paddingTop="8dp"
+                android:paddingLeft="19dp"
+                android:background="@drawable/edittexttime"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="SQUAD"
+                android:background="@drawable/edittexthead"
+                android:gravity="center_horizontal|center"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rules"
+                android:textColor="#fff"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingRight="19dp"
+                android:background="@drawable/edittextrule"
+                android:backgroundTint="#ff6072"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tourSoloIv3"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="215dp"
+            android:layout_marginTop="53dp"
+            android:layout_below="@+id/JoinNowBtn2"
+            android:src="@drawable/tournamentsquadcrop"
+            android:scaleType="centerCrop"
+            />
+
+        <Button
+            android:id="@+id/JoinNowBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/buttontournament"
+            android:layout_below="@+id/tourSoloIv3"
+            android:text="Join Now"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+-->
+
+</ScrollView>

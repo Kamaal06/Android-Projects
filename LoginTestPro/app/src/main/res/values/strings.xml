@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">LoginTestPro</string>
+
+
+    <string name="Terms">
+
+        By Joining this contest you accept UC hub \n
+        Terms and C and confirms that you are above \n
+            18 Yrs Old \n
+
+    </string>
+
+
+    <string name="helpdeskproblem">
+        Having \n
+        trouble with \n
+        something ?
+    </string>
+
+
+    <string name="helpdeskproblempart">
+        Send us your trouble/ query by filling the \n
+        following form and we will get back \n
+        to you as soon as possible \n
+        -Thank You
+    </string>
+
+    <string-array name="spinnerDetails">
+
+        <item> 30 UC</item>
+        <item> 300 UC</item>
+        <item> 600 UC</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="first30UC">
+
+        <i>
+        You can redeem only once in day.\n
+        You can redeem 30UC free of cost. \n
+        Your redeem UC will be effected in your Account \n
+        within 24hrs of Working Day.
+        T*C Apply.
+    </i>
+    </string>
+
+
+    <string name="second300UC">
+    <i>
+        You can redeem only once in day.\n
+        You have choosen 300UC for redemption charge \n
+        of 50rs. will be applied.\n
+        Your redeem UC will be effected in your Account \n
+        within 24hrs of Working Day.
+        T*C Apply.
+     </i>
+    </string>
+
+
+    <string name="third600UC">
+    <i>
+        You can redeem only once in day.\n
+        You have choosen 600UC for redemption charge \n
+        of 100rs will be applied.
+        Your redeem UC will be effected in your Account \n
+        within 24hrs of Working Day.
+        T*C Appl.
+    </i>
+    </string>
+
+
+</resources>

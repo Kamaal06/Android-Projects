@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CoinToUcActivityRedeem">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Balance"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewUC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="#ff6072"
+        android:layout_marginTop="30dp"/>
+
+
+    <EditText
+        android:id="@+id/coinEdit"
+        android:layout_width="184dp"
+        android:layout_height="32dp"
+        android:paddingLeft="10dp"
+        android:gravity="start"
+        android:hint="Enter Points"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dp"
+        android:textColorHint="#fff"
+        android:text="0"
+        android:inputType="number"
+        android:background="#ff6072"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000 COINS   =    1UC"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff6072"
+        android:layout_marginTop="46dp"
+        />
+
+    <Button
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:id="@+id/convertButton"
+        android:text="CONVERT"
+        android:textColor="#ffffff"
+        android:backgroundTint="#FF6072"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"/>
+
+</LinearLayout>

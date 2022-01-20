@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">intern1</string>
+
+    <string name="HomeP1"> Find the trip that suits you thanks "\n"to our trusted partners
+    </string>
+    <string name="next">next</string>
+    <string name="Back" />
+</resources>

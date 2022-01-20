@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FragmentsUse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is the Home Fragment</string>
+
+    <string name="text_redeem">This is the Redeem Fragment</string>
+
+    <string name="text_notification">This is the Notification Fragment</string>
+
+    <string-array name="spinnerDetails">
+
+        <item> 30 UC</item>
+        <item> 300 UC</item>
+        <item> 600 UC</item>
+
+    </string-array>
+
+</resources>

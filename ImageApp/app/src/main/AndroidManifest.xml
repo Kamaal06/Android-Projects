@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imageapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TimeTableAct"></activity>
+        <activity android:name=".noticeAct" />
+        <activity android:name=".GalleryAct" />
+        <activity android:name=".showAct" />
+        <activity android:name=".clickAct" />
+        <activity android:name=".Teacher10" />
+        <activity android:name=".Teacher9" />
+        <activity android:name=".Teacher8" />
+        <activity android:name=".Teacher7" />
+        <activity android:name=".Teacher6" />
+        <activity android:name=".Teacher5" />
+        <activity android:name=".Teacher4" />
+        <activity android:name=".Teacher3" />
+        <activity android:name=".Teacher2" />
+        <activity android:name=".Teacher1" />
+        <activity android:name=".Class5" />
+        <activity android:name=".Class4" />
+        <activity android:name=".Class3" />
+        <activity android:name=".Class2" />
+        <activity android:name=".Class1" />
+        <activity android:name=".Teacher_Login" />
+        <activity android:name=".Student_Teacher_Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Student_Login" />
+    </application>
+
+</manifest>

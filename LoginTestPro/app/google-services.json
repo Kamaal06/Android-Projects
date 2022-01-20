@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "653220351883",
+    "firebase_url": "https://logintestpro-b5161.firebaseio.com",
+    "project_id": "logintestpro-b5161",
+    "storage_bucket": "logintestpro-b5161.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653220351883:android:a235556d45917392d7298e",
+        "android_client_info": {
+          "package_name": "trial.of.logintestpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653220351883-mujnoiqq433gocqkqu486396ch0spboo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxRmLtUQDPnzzbGaXCyuuZUNLK62D5Tz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653220351883-mujnoiqq433gocqkqu486396ch0spboo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

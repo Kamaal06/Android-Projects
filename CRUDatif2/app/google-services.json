@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "270850488740",
+    "firebase_url": "https://crudatif.firebaseio.com",
+    "project_id": "crudatif",
+    "storage_bucket": "crudatif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270850488740:android:5ed042e3490f2e39002931",
+        "android_client_info": {
+          "package_name": "trial.of.crudatif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270850488740-an2o41c9nolf101p30cs9hpg21iundql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlS5ODn5826hTfxlljjwyDgt2An4zZD64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270850488740-an2o41c9nolf101p30cs9hpg21iundql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

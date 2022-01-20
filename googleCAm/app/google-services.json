@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "900919173487",
+    "firebase_url": "https://cam-ed55a.firebaseio.com",
+    "project_id": "cam-ed55a",
+    "storage_bucket": "cam-ed55a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900919173487:android:28fc85f85d4c127374c89a",
+        "android_client_info": {
+          "package_name": "trial.of.googlecam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900919173487-fgqvud6i026p0tikrpkgm71mpivhon1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBphiT2Qn44J49NO9HBC5BP7-FqbDbJyQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900919173487-fgqvud6i026p0tikrpkgm71mpivhon1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

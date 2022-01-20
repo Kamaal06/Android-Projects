@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".helpDeskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/helpdeskproblem"
+            android:textColor="#ff6072"
+            android:textSize="35dp"
+            />
+
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:text="@string/helpdeskproblempart"
+            android:textColor="#ff6072"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:src="@drawable/twoseven"
+        android:layout_alignParentRight="true"
+        />
+    <EditText
+        android:id="@+id/userFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittexthelpdesk"
+        android:backgroundTint="#ff6072"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_marginTop="220dp"/>
+
+    <EditText
+        android:id="@+id/mobileNumberHelpDesk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittexthelpdesk"
+        android:backgroundTint="#ff6072"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_below="@+id/userFullName"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        />
+
+    <EditText
+        android:id="@+id/emailHelpDesk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Email"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittexthelpdesk"
+        android:backgroundTint="#ff6072"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_below="@+id/mobileNumberHelpDesk"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/troubleQueryHelpDesk"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Enter your query here"
+        android:textColorHint="@color/white"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edittexthelpdesk"
+        android:backgroundTint="#ff6072"
+        android:textColor="@color/white"
+        android:layout_below="@+id/emailHelpDesk"
+        android:gravity="start|top"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/sendBtnHelpDesk"
+        android:layout_width="164dp"
+        android:layout_height="41dp"
+        android:text="Send"
+        android:textColor="@color/white"
+        android:backgroundTint="#ff6072"
+        android:background="@drawable/buttonshapelogin"
+        android:layout_below="@+id/troubleQueryHelpDesk"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+
+        />
+</RelativeLayout>

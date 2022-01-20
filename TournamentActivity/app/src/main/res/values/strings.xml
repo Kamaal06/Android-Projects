@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TournamentActivity</string>
+
+
+    <string name="Terms">
+
+        By Joining this contest you accept UC hub \n
+        Terms and C and confirms that you are above \n
+            18 Yrs Old \n
+
+    </string>
+
+
+    <string name="helpdeskproblem">
+        Having \n
+        trouble with \n
+        something ?
+    </string>
+
+
+    <string name="helpdeskproblempart">
+        Send us your trouble/ query by filling the \n
+        following form and we will get back \n
+        to you as soon as possible \n
+        -Thank You
+    </string>
+
+
+</resources>

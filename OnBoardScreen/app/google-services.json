@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430704535320",
+    "project_id": "onboardscreen",
+    "storage_bucket": "onboardscreen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430704535320:android:62c1734b5603e0ab84a06d",
+        "android_client_info": {
+          "package_name": "trial.of.onboardscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430704535320-t5f7p1213nl863o2u9kejkor1aa6adn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN1pyUQsVN8ZOB_DmMdtoSk1o6_EuGg-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430704535320-t5f7p1213nl863o2u9kejkor1aa6adn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

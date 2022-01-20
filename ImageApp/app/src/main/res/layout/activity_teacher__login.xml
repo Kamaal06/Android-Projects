@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Student_Login">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="350dp"
+    android:src="@drawable/techlog"
+    android:scaleType="fitStart"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="40dp"
+    android:padding="5dp"
+
+    />
+
+    <EditText
+        android:id="@+id/EmailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/edittext_view"
+        android:gravity="center_horizontal"
+        android:hint="Teacher Id"
+        android:cursorVisible="true"
+        android:textColorHint="#407BFF"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/PasswordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/edittext_view"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="text"
+        android:textColorHint="#407BFF"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:padding="15dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:background="#407BFF"/>
+
+
+</LinearLayout>

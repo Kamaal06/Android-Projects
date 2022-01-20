@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationFragmentActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ucnetdownlaod"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        />
+    <EditText
+        android:id="@+id/pubgId"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:background="#ff6072"
+        android:textColor="#ffffff"
+        android:hint="Enter Your Pubg PLayer ID"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/pubgNickName"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="340dp"
+        android:background="#ff6072"
+        android:textColor="#ffffff"
+        android:hint="Enter Your Pubg Nickname"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="10dp"
+        />
+    
+    <Spinner
+        android:id="@+id/spinID"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:entries="@array/spinnerDetails"
+        android:background="#ff6072"
+        />
+
+
+
+</FrameLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6072"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+        <EditText
+            android:id="@+id/gameIdProfile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:drawableLeft="@drawable/profileicon"
+            android:gravity="left|center"
+            android:background="@drawable/edittext"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="#ffffff"
+            />
+
+
+
+        <EditText
+            android:id="@+id/gameUserNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Game Username:"
+            android:layout_below="@+id/gameIdProfile"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_mobilenumber"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/userNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username:"
+            android:layout_below="@+id/gameUserNameProfile"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_mobilenumber"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:textColorHint="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/emailIdProfile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email ID:"
+            android:layout_below="@+id/userNameProfile"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_emailvector"
+            android:drawablePadding="10dp"
+            android:textColorHint="#ffffff"
+
+            />
+
+        <EditText
+            android:id="@+id/mobileNoProfile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Mobile No:"
+            android:layout_below="@+id/emailIdProfile"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_usernamevector"
+            android:drawablePadding="10dp"
+            android:inputType="phone"
+            android:textColorHint="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/passwordProfile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Change Password:"
+            android:layout_below="@+id/mobileNoProfile"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_cpasswordvector"
+            android:drawablePadding="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/saveProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Save Information"
+            android:layout_below="@+id/passwordProfile"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff6072"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:drawableLeft="@drawable/ic_save_black_24dp"
+            android:drawablePadding="10dp"
+
+            />
+
+        <!--
+
+                <EditText
+                    android:id="@+id/supportProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Support"
+                    android:layout_below="@+id/editProfile"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext"
+                    android:gravity="left|center"
+                    android:textColor="#ffffff"
+                    android:paddingLeft="20dp"
+                    android:drawableLeft="@drawable/supporticon"
+                    android:drawablePadding="10dp"
+                    android:backgroundTint="#ff6072"
+
+                    />
+
+                <EditText
+                    android:id="@+id/logoutProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Logout"
+                    android:layout_below="@+id/supportProfile"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittext"
+                    android:gravity="left|center"
+                    android:textColor="#ffffff"
+                    android:paddingLeft="20dp"
+                    android:drawableLeft="@drawable/logouticon"
+                    android:drawablePadding="10dp"
+                    android:backgroundTint="#ff6072"
+
+                    />
+
+        -->
+
+
+    </RelativeLayout>
+</FrameLayout>

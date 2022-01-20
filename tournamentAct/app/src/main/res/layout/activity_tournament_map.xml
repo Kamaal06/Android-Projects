@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TournamentMap">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Time"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:paddingTop="8dp"
+                android:paddingLeft="19dp"
+                android:fontFamily="@font/lato"
+                android:background="@drawable/edittexttime"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="SOLO"
+                android:background="@drawable/edittexthead"
+                android:gravity="center_horizontal|center"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:fontFamily="@font/lato"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:backgroundTint="#ff6072"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rules"
+                android:textColor="#fff"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:paddingTop="8dp"
+                android:paddingRight="19dp"
+                android:fontFamily="@font/lato"
+                android:background="@drawable/edittextrule"
+                android:backgroundTint="#ff6072"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="74dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date"
+                android:layout_weight="1"
+                android:textColor="#a49d9d"
+                android:background="#fff"
+                android:fontFamily="@font/lato"
+
+                android:gravity="center_horizontal|center"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:background="#e3e3e3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Time"
+                android:gravity="center_horizontal|center"
+                android:textColor="#a49d9d"
+                android:textSize="14dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:fontFamily="@font/lato"
+
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#e3e3e3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Map"
+                android:textColor="#a49d9d"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato"
+
+                android:gravity="center_horizontal|center"
+                android:background="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#e3e3e3"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mode"
+                android:textColor="#a49d9d"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato"
+
+                android:gravity="center_horizontal|center"
+                android:background="#fff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="108dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="27/06/2020"
+                android:layout_weight="1"
+                android:textColor="#FF6072"
+                android:background="#fff"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato"
+
+                android:gravity="center_horizontal"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="#e3e3e3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4:00 pm"
+                android:gravity="center_horizontal"
+                android:textColor="#ff6072"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:fontFamily="@font/lato"
+
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="#e3e3e3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Erangel"
+                android:textColor="#ff6072"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/lato"
+
+                android:background="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="#e3e3e3"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TPP"
+                android:textColor="#ff6072"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/lato"
+
+                android:background="#fff"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:src="@drawable/maptournament"
+            android:layout_marginTop="137dp"
+            android:scaleType="centerCrop"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="18.4dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="250dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Winning Price"
+                android:layout_weight="1"
+                android:textColor="#a49d9d"
+                android:background="#DAFFFFFF"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:fontFamily="@font/lato"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Players"
+                android:gravity="center_vertical"
+                android:textColor="#a49d9d"
+                android:layout_weight="1"
+                android:background="#DAFFFFFF"
+                android:paddingLeft="8dp"
+                android:fontFamily="@font/lato"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Entry Fee"
+                android:textColor="#a49d9d"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:fontFamily="@font/lato"
+                android:background="#DAFFFFFF"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="268dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="600 UC"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#ff6072"
+                android:background="#DAFFFFFF"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:fontFamily="@font/lato"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="100"
+                android:gravity="center_vertical"
+                android:textColor="#ff6072"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="#DAFFFFFF"
+                android:paddingLeft="8dp"
+                android:fontFamily="@font/lato"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="20"
+                android:textColor="#ff6072"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:fontFamily="@font/lato"
+                android:background="#DAFFFFFF"/>
+        </LinearLayout>
+        
+        <ProgressBar
+            android:id="@+id/progBar"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="287dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:background="#fff"/>
+
+        <TextView
+            android:id="@+id/playerNumberTv"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_below="@+id/progBar"
+            android:background="#DAFFFFFF"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="75 Players Joined"
+            android:textColor="#a49d9d"
+            android:textSize="12dp"
+            android:fontFamily="@font/lato"
+
+            app:fontFamily="@font/lato" />
+
+        <Button
+            android:id="@+id/JoinNowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@drawable/buttonshape"
+            android:layout_below="@+id/playerNumberTv"
+            android:text="Join Now"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="@font/lato"
+            android:layout_centerHorizontal="true"
+            />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_nav"
+            android:layout_marginTop="318dp"
+            android:layout_below="@+id/JoinNowBtn"
+    />
+
+    </RelativeLayout>
+
+</ScrollView>

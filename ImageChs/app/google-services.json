@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "307716986798",
+    "firebase_url": "https://imagechs-abf23.firebaseio.com",
+    "project_id": "imagechs-abf23",
+    "storage_bucket": "imagechs-abf23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307716986798:android:d7f95002051cc67ae1da3f",
+        "android_client_info": {
+          "package_name": "trial.of.imagechs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307716986798-ivj9ehjlgo6g22un74lhammki6o2414t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ3fNmKx53_9F51F8xusl-3k5wWjh3uFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307716986798-ivj9ehjlgo6g22un74lhammki6o2414t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

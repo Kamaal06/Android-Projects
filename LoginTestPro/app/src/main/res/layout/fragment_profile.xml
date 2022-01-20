@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+
+        <TextView
+            android:id="@+id/userNameFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Username:"
+            android:drawableStart="@drawable/ic_mobilenumber"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+            android:layout_marginTop="70dp"
+            />
+
+        <TextView
+            android:id="@+id/gameIdFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Game ID:"
+            android:drawableLeft="@drawable/profileicon"
+            android:gravity="left|center"
+            android:background="@drawable/edittext"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+            android:layout_below="@+id/userNameFrag"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/gameUserNameFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Game Username:"
+            android:layout_below="@+id/gameIdFrag"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_mobilenumber"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+            />
+
+
+
+        <TextView
+            android:id="@+id/emailIdFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Email ID:"
+            android:layout_below="@+id/gameUserNameFrag"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_emailvector"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+
+            />
+
+        <TextView
+            android:id="@+id/mobileNoFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Mobile No:"
+            android:layout_below="@+id/emailIdFrag"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_usernamevector"
+            android:drawablePadding="10dp"
+            android:inputType="phone"
+            android:backgroundTint="#ff6072"
+
+            />
+
+        <TextView
+            android:id="@+id/passwordFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Change Password:"
+            android:layout_below="@+id/mobileNoFrag"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_cpasswordvector"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+
+            />
+
+
+        <TextView
+            android:id="@+id/editProfileFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Edit Information"
+            android:layout_below="@+id/passwordFrag"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/editiconprofile"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+
+            />
+
+
+        <TextView
+            android:id="@+id/supportProfileFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Support"
+            android:layout_below="@+id/editProfileFrag"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/supporticon"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+            />
+
+        <TextView
+            android:id="@+id/logoutProfileFrag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Logout"
+            android:layout_below="@+id/supportProfileFrag"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:gravity="left|center"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/logouticon"
+            android:drawablePadding="10dp"
+            android:backgroundTint="#ff6072"
+            />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

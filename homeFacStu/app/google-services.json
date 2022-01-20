@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "773866761458",
+    "firebase_url": "https://homefacstu.firebaseio.com",
+    "project_id": "homefacstu",
+    "storage_bucket": "homefacstu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773866761458:android:e927a58b3e8a837cde746b",
+        "android_client_info": {
+          "package_name": "trial.of.homefacstu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773866761458-f1go9bl23l4omd9rfageiibbu0d190un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8zuyvBeIejyRc0FE7CjCXgm613uy1viQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773866761458-f1go9bl23l4omd9rfageiibbu0d190un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "698514641878",
+    "firebase_url": "https://authreg-64f4e.firebaseio.com",
+    "project_id": "authreg-64f4e",
+    "storage_bucket": "authreg-64f4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698514641878:android:14a7fa99a4216474d88a77",
+        "android_client_info": {
+          "package_name": "trial.of.authreg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698514641878-h50fcav2tba0iet9d4r4tq6akaricrn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMubxy0GSI-BgHF7WyJMkBGYYzWuUB7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698514641878-h50fcav2tba0iet9d4r4tq6akaricrn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

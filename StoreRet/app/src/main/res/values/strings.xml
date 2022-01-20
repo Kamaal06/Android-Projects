@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StoreRet</string>
+
+    <array name="genres">
+        <item>Dancer</item>
+        <item>Singer</item>
+        <item>Pop</item>
+        <item>Hip Hop</item>
+    </array>
+</resources>

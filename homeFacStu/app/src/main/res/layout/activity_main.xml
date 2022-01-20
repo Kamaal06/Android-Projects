@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:gravity="center"
+        android:text="PLEASE SELECT AN LOGIN OPTION"
+        android:textSize="24dp"
+        android:textColor="#fff"
+
+        />
+    <ImageView
+        android:id="@+id/teacher"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/teacher1"
+        android:background="@color/colorPrimary"
+        />
+
+    <ImageView
+        android:id="@+id/student"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="380dp"
+        app:srcCompat="@drawable/students"
+        android:background="@color/colorPrimary"/>
+
+</RelativeLayout>
